@@ -59,10 +59,14 @@
 							
 			<c:url value="/login" var="login"/>
 			<div class="login-box">
-				<form:form action="${login}" method="post" class="sky-form boxed" autocomplete='off'>	
-                    <!-- <div class="login-logo d-flex justify-content-center align-items-center mt-2 mb-4"> -->
-						<img src="az.png" class="img-login2 img-fluid"/>
-					<!-- </div> -->
+
+				<div class="input-group">
+					<img src="https://images.app.goo.gl/aC7JLdng3zt2gf2s5" class="img-login2"/>
+				</div>
+
+				<form:form action="${login}" method="post" class="sky-form boxed" autocomplete='off'>
+
+					
 
 					<div class="input-group">
 							<input type='text' name='username' id='username' class="form-control required" placeholder="Username"/>   
